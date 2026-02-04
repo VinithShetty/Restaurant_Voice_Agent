@@ -92,23 +92,4 @@ tts_engine.setProperty('voice', voices[0].id)  # 0=male, 1=female
 ```
 
 ---
-
-## Original Version (Paid APIs)
-
-To use the original version with Deepgram and OpenAI:
-
-1. Create `.env` file with your API keys:
-   ```
-   DEEPGRAM_API_KEY=your_key
-   OPENAI_API_KEY=your_key
-   ```
-
-2. Install original dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run:
-   ```bash
-   python app.py
    ```
